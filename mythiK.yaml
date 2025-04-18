@@ -32,11 +32,6 @@ tasks:
     dest: ./logo96.png
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-framework
-    subpath: resources
-    dest: ./cfx/resources/[cfx]
-
-  - action: download_github
     src: https://github.com/Mythic-Framework-Official/mythic-admin
     ref: main
     dest: ./tmp/resources/mythic-admin
@@ -370,16 +365,20 @@ tasks:
     ref: main
     dest: ./tmp/resources/mythic-weed
 
+  - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-framework
+    subpath: resources
+    dest: ./tmp/resources/[cfx]
+
   - action: move_path
     src: ./tmp/resources
     dest: ./resources/[mythic]
     overwrite: true
 
   - action: move_path
-    src: ./cfx/resources/[cfx]/[cfx]
-    dest: ./resources
+    src: ./tmp/resources/[cfx]
+    dest: ./resources/[cfx]
     
-
   - action: move_path
     src: ./resources/oxmysql
     dest: ./resources/oxmysql
