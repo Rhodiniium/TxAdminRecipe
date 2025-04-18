@@ -34,7 +34,7 @@ tasks:
   - action: download_github
     src: https://github.com/Mythic-Framework-Official/mythic-admin
     ref: main
-    dest: ./resources 
+    dest: ./tmp/resources/mythic-admin
 
   # - action: download_github
   #   src: https://github.com/Mythic-Framework-Official/mythic-animations
