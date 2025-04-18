@@ -32,6 +32,11 @@ tasks:
     dest: ./logo96.png
 
   - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-framework
+    subpath: resources
+    dest: ./cfx/resources/[cfx]
+
+  - action: download_github
     src: https://github.com/Mythic-Framework-Official/mythic-admin
     ref: main
     dest: ./tmp/resources/mythic-admin
@@ -203,6 +208,11 @@ tasks:
     dest: ./tmp/resources/mythic-lasers
 
   - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-locations
+    ref: main
+    dest: ./tmp/resources/mythic-lasers
+
+  - action: download_github
     src: https://github.com/Mythic-Framework-Official/mythic-loadscreen
     ref: main
     dest: ./tmp/resources/mythic-loadscreen
@@ -355,9 +365,18 @@ tasks:
     ref: main
     dest: ./tmp/resources/mythic-weed
 
+  - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-weed
+    ref: main
+    dest: ./tmp/resources/mythic-weed
 
   - action: move_path
     src: ./tmp/resources
+    dest: ./resources
+    overwrite: true
+
+  - action: move_path
+    src: ./cfx/resources/[cfx]
     dest: ./resources
     overwrite: true
 
