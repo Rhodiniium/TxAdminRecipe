@@ -376,7 +376,7 @@ tasks:
     overwrite: true
 
   - action: move_path
-    src: ./cfx/resources/[cfx]
+    src: ./cfx/resources/[cfx]/[cfx]
     dest: ./resources
     
 
