@@ -37,7 +37,17 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-animations
+    subpath: resources
+    dest: ./tmp/mythic/resources
+
+  - action: download_github
     src: https://github.com/Mythic-Framework-Official/mythic-apartments
+    subpath: resources
+    dest: ./tmp/mythic/resources
+
+  - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-arcade
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -47,32 +57,17 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-blueprints
+    src: https://github.com/Mythic-Framework-Official/mythic-billboards
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-boombox
+    src: https://github.com/Mythic-Framework-Official/mythic-blips
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-builder
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-burgershot
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-business
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-carboosting
+    src: https://github.com/Mythic-Framework-Official/mythic-businesses
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -87,42 +82,37 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-cinema
+    src: https://github.com/Mythic-Framework-Official/mythic-characters
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-clothing
+    src: https://github.com/Mythic-Framework-Official/mythic-chat
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-combatlog
+    src: https://github.com/Mythic-Framework-Official/mythic-commands
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-courthouse
+    src: https://github.com/Mythic-Framework-Official/mythic-customs
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-crafting
+    src: https://github.com/Mythic-Framework-Official/mythic-damage
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-data
+    src: https://github.com/Mythic-Framework-Official/mythic-dealerships
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-devtools
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-dmv
+    src: https://github.com/Mythic-Framework-Official/mythic-doors
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -132,12 +122,7 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-ems
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-emotes
+    src: https://github.com/Mythic-Framework-Official/mythic-escort
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -147,52 +132,37 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-farming
+    src: https://github.com/Mythic-Framework-Official/mythic-finance
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-fishing
+    src: https://github.com/Mythic-Framework-Official/mythic-fitment
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-garages
+    src: https://github.com/Mythic-Framework-Official/mythic-fuel
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-gangs
+    src: https://github.com/Mythic-Framework-Official/mythic-games
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-gasmasks
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-hacking
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-housing
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-hunting
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-identity
+    src: https://github.com/Mythic-Framework-Official/mythic-hud
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
     src: https://github.com/Mythic-Framework-Official/mythic-inventory
+    subpath: resources
+    dest: ./tmp/mythic/resources
+
+  - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-ipl
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -207,22 +177,27 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-keybinds
+    subpath: resources
+    dest: ./tmp/mythic/resources
+
+  - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-labor
+    subpath: resources
+    dest: ./tmp/mythic/resources
+
+  - action: download_github
     src: https://github.com/Mythic-Framework-Official/mythic-laptop
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-lawyers
+    src: https://github.com/Mythic-Framework-Official/mythic-lasers
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-mail
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-marketplace
+    src: https://github.com/Mythic-Framework-Official/mythic-loadscreen
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -232,37 +207,27 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-mechanics
+    src: https://github.com/Mythic-Framework-Official/mythic-mechanic
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-medical
+    src: https://github.com/Mythic-Framework-Official/mythic-menu
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-mining
+    src: https://github.com/Mythic-Framework-Official/mythic-objects
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-motels
+    src: https://github.com/Mythic-Framework-Official/mythic-ped
     subpath: resources
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-news
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-oilrig
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-pawnshop
+    src: https://github.com/Mythic-Framework-Official/mythic-pedinteraction
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -277,7 +242,7 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-prison
+    src: https://github.com/Mythic-Framework-Official/mythic-polyzone
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -287,7 +252,17 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-racing
+    src: https://github.com/Mythic-Framework-Official/mythic-pwnzor
+    subpath: resources
+    dest: ./tmp/mythic/resources
+
+  - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-queue
+    subpath: resources
+    dest: ./tmp/mythic/resources
+
+  - action: download_github
+    src: https://github.com/Mythic-Framework-Official/mythic-radar
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -297,12 +272,7 @@ tasks:
     dest: ./tmp/mythic/resources
 
   - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-realestate
-    subpath: resources
-    dest: ./tmp/mythic/resources
-
-  - action: download_github
-    src: https://github.com/Mythic-Framework-Official/mythic-repair
+    src: https://github.com/Mythic-Framework-Official/mythic-restaurant
     subpath: resources
     dest: ./tmp/mythic/resources
 
@@ -375,6 +345,7 @@ tasks:
     src: https://github.com/Mythic-Framework-Official/mythic-weed
     subpath: resources
     dest: ./tmp/mythic/resources
+
 
   - action: move_path
     src: ./tmp/mythic/resources
