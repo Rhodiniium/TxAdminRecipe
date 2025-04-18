@@ -96,6 +96,9 @@ tasks:
     subpath: resources
     dest: ./tmp/mythic/resources
 
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
   - action: download_github
     src: https://github.com/Mythic-Framework-Official/mythic-customs
     subpath: resources
@@ -278,6 +281,9 @@ tasks:
     src: https://github.com/Mythic-Framework-Official/mythic-restaurant
     subpath: resources
     dest: ./tmp/mythic/resources
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     src: https://github.com/Mythic-Framework-Official/mythic-robbery
