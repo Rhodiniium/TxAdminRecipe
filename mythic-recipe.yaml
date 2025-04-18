@@ -1,9 +1,9 @@
 $engine: 3
 $onesync: on
-name: Mythic Stable
+name: Mythic-Framework
 version: 1.0.0
-author: Rhodinium
-description: Recipe for TX users to launch and run mythic-framework.
+author: The Community
+description: Easy-to-use TXAdmin recipe for getting Mythic Framework up and running in minutes.
 
 tasks:
   #  Download Base Files
@@ -30,12 +30,6 @@ tasks:
   - action: move_path
     src: ./tmp/mythic/logo96.png
     dest: ./logo96.png
-
-  # - action: download_github
-  #   dest: ./resources
-  #   ref: main
-  #   src: https://github.com/Mythic-Framework/mythic-framework
-  #   dest: ./tmp/mythic
 
   - action: download_github
     src: https://github.com/Mythic-Framework/mythic-framework/resources
