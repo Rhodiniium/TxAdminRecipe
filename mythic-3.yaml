@@ -419,7 +419,7 @@ tasks:
 
 
   - action: move_path
-    src: ./tmp/mythic/resources
+    src: ./tmp/resources
     dest: ./resources
     overwrite: true
 
