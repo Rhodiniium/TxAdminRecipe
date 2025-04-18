@@ -20,10 +20,6 @@ tasks:
     dest: ./server.cfg
 
   - action: move_path
-    src: ./tmp/mythic/configs/example.environment.cfg
-    dest: ./configs/example.environment.cfg
-
-  - action: move_path
     src: ./tmp/mythic/configs/example.resources.cfg
     dest: ./configs/example.resources.cfg
 
@@ -42,7 +38,7 @@ tasks:
   #   dest: ./tmp/mythic
 
   - action: download_github
-    src: https://github.com/Mythic-Framework/mythic-framework
+    src: https://github.com/Mythic-Framework/mythic-framework/resources
     subpath: resources
     dest: ./resources
 
