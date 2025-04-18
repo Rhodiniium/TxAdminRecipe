@@ -40,7 +40,7 @@ tasks:
   - action: download_github
     src: https://github.com/Mythic-Framework/mythic-framework/resources
     subpath: resources
-    dest: ./resources
+    dest: ./tmp/mythic/resources
 
   - action: move_path
     src: ./tmp/mythic/resources
