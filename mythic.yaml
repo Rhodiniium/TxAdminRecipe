@@ -46,15 +46,10 @@ tasks:
     dest: ./resources
     overwrite: true
 
-  
   # Prepare Database
   - action: connect_database
   - action: query_database
     file: ./tmp/mythic/mythic.sql
-
-
-  - action: waste_time # prevent github throttling
-    seconds: 10
 
   # Clean up
   - action: remove_path
