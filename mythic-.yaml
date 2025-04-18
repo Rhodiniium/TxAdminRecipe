@@ -372,12 +372,17 @@ tasks:
 
   - action: move_path
     src: ./tmp/resources
-    dest: ./resources
+    dest: ./resources/[mythic]
     overwrite: true
 
   - action: move_path
     src: ./cfx/resources/[cfx]
     dest: ./resources
+    overwrite: true
+
+  - action: move_path
+    src: ./cfx/resources/oxmysql
+    dest: ./resources/oxmysql
     overwrite: true
 
   # Prepare Database
