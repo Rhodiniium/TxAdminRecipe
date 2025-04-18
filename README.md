@@ -65,6 +65,16 @@ To run the Mythic Framework successfully after deployment, ensure you have the f
 
 ---
 
+## ℹ️ Known Issues / First-Time Launch Tip
+
+> **Heads up!**  
+If you encounter errors related to **Fuel** or **Inventory** systems when launching the server for the first time, don’t worry — this is normal.
+
+🛠️ **Solution:**  
+Simply **restart the server once**, and the issues should be resolved automatically. These errors typically occur only during the very first launch due to initial resource registration or dependency order.
+
+---
+
 ## 🧠 Tips
 
 - You can customize `resources.cfg` to match your server setup.
